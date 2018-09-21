@@ -8,13 +8,13 @@ Refer com.example.avrotest.customlogicaltype.CustomDecimal class.
 Refer org.apache.avro.CustomDecimalConversion
 3) Create a LogicalTypeFactory class which should implement LogicalTypes.LogicalTypeFactory. 
 Refer com.example.avrotest.customlogicaltype.CustomDecimalLogicalTypeFactory
-4) Register your custom logical type factory class.
+4) Register your custom logical type factory class.<br/>
 Ex:- <br/>
       LogicalTypes.register("custom_decimal",new CustomDecimalLogicalTypeFactory());
       
-5) Register your custom conversion class with GenericData so that DatumReader or DatumWriter can do the appropriate conversion.
+5) Register your custom conversion class with GenericData so that DatumReader or DatumWriter can do the appropriate conversion.<br/>
 Ex:- <br/>
-      GenericData GENERIC = GenericData.get();
-      GENERIC.addLogicalTypeConversion(new CustomDecimalConversion());
+      GenericData GENERIC = GenericData.get();<br/>
+      GENERIC.addLogicalTypeConversion(new CustomDecimalConversion());<br/>
 
 
