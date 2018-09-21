@@ -1,12 +1,10 @@
-package com.example.avrotest;
+package com.example.avrotest.customlogicaltype;
 
 import org.apache.avro.*;
 import org.apache.avro.generic.GenericData;
 import org.apache.avro.generic.GenericFixed;
 
 import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.nio.ByteBuffer;
 
 
 public class CustomDecimalConversion extends Conversion<BigDecimal> {

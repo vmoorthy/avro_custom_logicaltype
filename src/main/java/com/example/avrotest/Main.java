@@ -1,9 +1,7 @@
 package com.example.avrotest;
 
+import com.example.avrotest.customlogicaltype.CustomDecimalLogicalTypeFactory;
 import org.apache.avro.LogicalTypes;
-
-import java.math.BigDecimal;
-import java.math.BigInteger;
 
 public class Main {
 

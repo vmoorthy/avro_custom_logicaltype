@@ -1,4 +1,4 @@
-package com.example.avrotest;
+package com.example.avrotest.customlogicaltype;
 
 import org.apache.avro.LogicalType;
 import org.apache.avro.LogicalTypes;

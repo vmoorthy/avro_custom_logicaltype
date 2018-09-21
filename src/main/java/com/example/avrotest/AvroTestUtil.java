@@ -2,6 +2,7 @@ package com.example.avrotest;
 
 import java.io.*;
 
+import com.example.avrotest.customlogicaltype.CustomDecimalConversion;
 import org.apache.avro.file.DataFileReader;
 import org.apache.avro.file.DataFileWriter;
 import org.apache.avro.generic.GenericData;
