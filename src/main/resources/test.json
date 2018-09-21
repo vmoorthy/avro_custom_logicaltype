@@ -1,0 +1,21 @@
+{
+  "header":{
+    "source":"QDC",
+    "seqno":55840458255372,
+    "fragno":55840458288717,
+    "schema":"QBO",
+    "serverid":1,
+    "table":"COMPANYLOGOS_1",
+    "timestamp":1520684218002,
+    "eventtype":"UPDATE",
+    "shardid":"QBOC73",
+    "eventid":"00000055840458288717",
+    "query":"",
+    "primarykey":"COMPANY_ID,LOGO_TYPE",
+    "eventno":1,
+    "changedcolumns":{
+      "string":"LOGO_IMAGE"
+    },
+    "company_id" : "123456780.78"
+  }
+}
