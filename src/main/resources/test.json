@@ -16,6 +16,8 @@
     "changedcolumns":{
       "string":"LOGO_IMAGE"
     },
-    "company_id" : "123456780.78"
+    "company_id" : {
+      "string": "123456780.78"
+    }
   }
 }

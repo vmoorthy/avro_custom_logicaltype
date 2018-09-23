@@ -136,8 +136,12 @@ public class AvroTestUtil {
             if( fieldSchema.getType() == Schema.Type.RECORD) {
                 printLogicalTypes((GenericRecord)avroRecord.get(fieldSchema.getName()));
             } else if( fieldSchema != null) {
-                System.out.println("Field logical type = " + fieldSchema.getLogicalType() + " Field Schema = "  + fieldSchema + " type = " + fieldSchema.getType() + " value = " + avroRecord.get(avroField.name()) + " value class = " + avroRecord.get(avroField.name()).getClass());
-
+                System.out.print("Field logical type = " + fieldSchema.getLogicalType() + " Field Schema = "  + fieldSchema + " type = " + fieldSchema.getType() + " value = " + avroRecord.get(avroField.name()));
+                if( avroRecord.get(avroField.name()) != null ) {
+                    System.out.println(" value class = " + avroRecord.get(avroField.name()).getClass());
+                } else {
+                    System.out.println(" value class = null");
+                }
             } else {
                 continue;
             }

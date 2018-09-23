@@ -70,10 +70,12 @@
                },
                {
                   "name":"company_id",
-                  "type": "string",
-                  "logicalType": "custom_decimal",
-                  "precision": 38,
-                  "scale": 2
+                  "type": ["null", {
+			        "type" : "string",
+                  	"logicalType": "custom_decimal",
+                  	"precision": 38,
+                  	"scale": 2
+		          }]
                }
             ]
          }
